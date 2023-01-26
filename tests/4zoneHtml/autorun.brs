@@ -1,9 +1,13 @@
 Sub Main()
+
+vm = CreateObject("roVideoMode")
+vm.SetMode("3840x2160x60p")
+
 msgPort = CreateObject("roMessagePort")
-r = CreateObject("roRectangle", 0, 0, 1920, 1080)
+r = CreateObject("roRectangle", 0, 0, 960,540)
   
 config = {
-url: "http://www.brightsign.biz",
+url: "file:///html/zone1.html",
 }
 h = CreateObject("roHtmlWidget", r, config)
 h.SetPort(msgPort)

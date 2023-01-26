@@ -1,0 +1,14 @@
+@font-face {
+  font-family: CeraProLight;
+  src: url("./cera/TypeMates - Cera PRO Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: CeraProRegular;
+  src: url("./cera/TypeMates - Cera PRO Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: CeraProBold;
+  src: url("./cera/TypeMates - Cera PRO Bold.otf") format("opentype");
+}
